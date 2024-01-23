@@ -63,7 +63,7 @@ Cadastro de Pessoa Fisica:
 ## Deploy 
 
 <p align="justify">
- Link para acesso ao site: [Clique Aqui](https://resoluti-desafio-mxjon9ruv-jpadedg.vercel.app)
+ Link para acesso ao site: https://resoluti-desafio-mxjon9ruv-jpadedg.vercel.app
 </p>
 
 ## Pré-requisitos
