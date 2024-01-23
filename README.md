@@ -15,6 +15,8 @@
 
 :small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-dash)
 
+:small_blue_diamond: [Deploy](#deploy)
+
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
@@ -26,6 +28,7 @@
  O projeto tem uma tela de login, cadastro de login, tela de Pessoas Fisicas e cadastro/alteração das Pessoas Fisicas.
  Recebi um protótipo de baixa fidelidade e fiz o site usando Next no periodo do dia 20/01/2023 a 23/01/2023. 
 </p>
+
 
 ## Funcionalidades
 
@@ -57,6 +60,11 @@ Tela de Pessoas Fisicas:
 Cadastro de Pessoa Fisica: 
 ![image](https://github.com/jpadedg/resoluti_desafio/assets/57507707/cbb6b886-4cfc-4e6a-8bab-22e0bbc2b419)
 
+## Deploy 
+
+<p align="justify">
+ Link para acesso ao site: resoluti-desafio-mxjon9ruv-jpadedg.vercel.app
+</p>
 
 ## Pré-requisitos
 
