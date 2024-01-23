@@ -23,13 +23,13 @@ export const userCard = ({ pessoaFisica, onDelete }) => {
           
         </div>
         <div className='userCard-center'>
-          <h3>Contato</h3>
+          <h3 style={{ marginLeft: '20%' }}>Contato</h3>
           {contatos.map((contato, index) => (
             <h3 key={index}>{contato.tipo}: {contato.contato} - {contato.nome}</h3>  
           ))}
         </div>
         <div className='userCard-center'>
-          <h3>Endereço</h3>
+          <h3 style={{ marginLeft: '20%' }}>Endereço</h3>
           {enderecos.map((endereco, index) => (
             <h3 key={index}>{endereco.logradouro}, n° {endereco.numero} {endereco.complemento}. {endereco.cidade}-{endereco.estado}</h3>
           ))}
