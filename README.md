@@ -68,11 +68,11 @@ Cadastro de Pessoa Fisica:
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/jpadedg/controleFinanceiro-front.git
+git clone https://github.com/jpadedg/resoluti_desafio.git
 ```
 
 ```
-cd controleFinanceiro-front.git
+cd resoluti_desafio
 npm i 
 npm run dev
 ```
