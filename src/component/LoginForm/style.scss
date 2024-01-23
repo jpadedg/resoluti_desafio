@@ -1,0 +1,60 @@
+@use "../../global.scss" as *;
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: $white;
+    color: $black;
+    font-family: 'Merriweather';
+
+    .logo{
+        max-height: 400px;
+        height: 20vh;
+        width: 40vw;
+    }
+    &-title{
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    &-label{
+        font-size: 18px;
+        margin: 15px 0 2px 0;
+    }
+    &-input{
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        background-color: $black;
+        color: $white;
+    }
+    &-input:focus {
+        outline: none;
+    }
+    &-btn{
+        width: 50%;
+        font-size: 18px;
+        background-color: $orange;
+        border: 1px $black solid;
+        border-radius: 5px;
+        margin: 15px 0 15px 0;
+        cursor: pointer;
+        padding: 5px 0 5px 0;
+        outline: none;
+        transition: 0.5s;
+    }
+    &-btn:hover{
+        background-color: $white;
+        border: 1px $orange solid;
+        color: $orange;
+        font-weight: bold;
+    }
+    &-cadastro{
+        font-weight: bold;
+        font-size: 12px;
+        padding-left: 2px;
+    }
+    &-cadastro:hover{
+        color: $orange;
+    }
+}

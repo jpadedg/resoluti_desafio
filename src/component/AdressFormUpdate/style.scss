@@ -1,0 +1,106 @@
+@use "../../global.scss" as *;
+
+.adressFormUpdt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $white;
+    color: $black;
+    font-family: 'Merriweather';
+    margin-bottom: 20px;
+    .logo{
+        max-height: 400px;
+        height: 20vh;
+        width: 40vw;
+    }
+    &-label{
+        font-size: 18px;
+        margin: 15px 0 2px 0;
+    }
+    &-marginRight{
+        margin-right: 15px;
+    }
+    &-input{
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        background-color: $black;
+        color: $white;
+        width: 20vw;
+    }
+    &-input:focus {
+        outline: none;
+    }
+    &-select{
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        background-color: $black;
+        color: $white;
+        width: 20vw;
+    }
+    &-back{
+        font-size: 12px;
+        padding-left: 2px;
+    }
+    &-back:hover{
+        color: $orange;
+    }
+    &-underline{
+        width: 100%;
+        margin: 30px 0 0 0;
+        border-bottom: 2px $black solid;
+    }
+    &-buttons{
+        display: flex;
+        &-add{
+            width: 40%;
+            font-size: 18px;
+            background-color: $orange;
+            border: 1px $black solid;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px 0 5px 0;
+            outline: none;
+            transition: 0.5s;
+            margin-right: 15vw;
+        }
+        &-add:hover{
+            background-color: $white;
+            border: 1px $orange solid;
+            color: $orange;
+            font-weight: bold;
+        }
+        &-remove{
+            width: 20%;
+            font-size: 18px;
+            background-color: $white;
+            border: 1px $red solid;
+            border-radius: 5px;
+            color: $red;
+            margin: 15px 0 0 0;
+            cursor: pointer;
+            padding: 5px 0 5px 0;
+            outline: none;
+            transition: 0.5s;
+        }
+        &-save{
+            width: 40%;
+            font-size: 18px;
+            background-color: $orange;
+            border: 1px $black solid;
+            border-radius: 5px;
+            margin: 15px 0 15px 0;
+            cursor: pointer;
+            padding: 5px 0 5px 0;
+            outline: none;
+            transition: 0.5s;
+        }
+        &-save:hover{
+            background-color: $white;
+            border: 1px $orange solid;
+            color: $orange;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@use "../../global.scss" as *;
+
+.usersPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-list{
+        margin-top: 100px;
+        width: 80%;
+        &-btn{
+            width: 40%;
+            font-size: 18px;
+            background-color: $orange;
+            border: 1px $black solid;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px 0 5px 0;
+            outline: none;
+            transition: 0.5s;
+            margin-right: 15vw;
+            margin: 0 15vw 1vw 0;
+            font-weight: bold;
+            box-shadow: 1px 2px 8px $orange
+        }
+        &-btn:hover{
+            background-color: $white;
+            border: 1px $white solid;
+            color: $orange;
+            font-weight: bold;
+            box-shadow: 0px 3px 8px $white
+        }
+    }
+}
