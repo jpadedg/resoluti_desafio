@@ -2,7 +2,7 @@
 import './style.scss'
 import { useRouter } from 'next/navigation'
 
-export const userCard = ({ pessoaFisica, onDelete }) => {
+export const UserCard = ({ pessoaFisica, onDelete }) => {
     const { nome, sobrenome, cpf, rg, email,enderecos, contatos } = pessoaFisica;
     const router = useRouter();
 
@@ -42,4 +42,4 @@ export const userCard = ({ pessoaFisica, onDelete }) => {
     )
 }
 
-export default userCard;
+export default UserCard;
